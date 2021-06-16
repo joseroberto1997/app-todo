@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>App Todo</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Todo App</title>
 </head>
+
 <body>
-  
+    <div class="container">
+        <h1>TODO APP</h1>
+        <form action="">
+            <input class="input-task" type="text" data-form-input placeholder="Digite sua tarefa...">
+            <input class="input-date" type="datetime-local" data-form-date>
+            <button class="button-task" data-form-button>Nova tarefa</button>
+        </form>
+
+        <div class="list-tasks">
+            <h2>Minhas tarefas</h2>
+            <ul data-list>
+
+            </ul>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="./main.js" type="module"></script>
 </body>
+
 </html>

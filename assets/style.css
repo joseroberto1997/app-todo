@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #fffff2;
+}
+
+.container {
+    width: 600px;
+    margin: 100px auto;
+    padding: 80px;
+    background-image: linear-gradient(#ba17ff, #cf63fd);
+    border-radius: 0px 80px 0px 80px;
+}
+
+
+
+h1 {
+    text-align: center;
+    color: #fffff2;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    background: #fffff2;
+}
+
+button {
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    font-weight: bold;
+    background: #fffff2;
+    color: #8100b8;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #8100b8;
+    color: #fffff2;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #fffff2;
+}
+
+.list-tasks ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fffff2;
+}
+
+.list-tasks .buttons button {
+    margin-left: 10px;
+    border-radius: 0px 8px 0px 8px;
+    margin-bottom: 15px
+}
+
+.done {
+    text-decoration: line-through;
+    font-style: italic;
+    color: #8100b8;
+}
